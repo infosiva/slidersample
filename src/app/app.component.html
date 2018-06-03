@@ -1,0 +1,22 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<ion-range-slider #sliderElement
+    min=0
+    max=5000
+    step=50
+    [from]=currentlimit
+    force_edges= true
+    hide_min_max= true
+    prefix="£"
+    prettify_enabled = true
+    prettify_separator = ","
+>
+</ion-range-slider>
+
+<br>
+<br>
+<button (click)="increaselimit()">Add+</button> 
