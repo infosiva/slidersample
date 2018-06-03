@@ -20,9 +20,8 @@
       "prefix": "app",
       "styles": [
         "styles.css",
-        "app/app.component.css",
-        "../node_modules/ion-rangeslider/css/ion.rangeSlider.css",
-        "../node_modules/ion-rangeslider/css/ion.rangeSlider.skinFlat.css"
+        "ion.rangeSlider.skinFlat.css",
+        "../node_modules/ion-rangeslider/css/ion.rangeSlider.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js", 
